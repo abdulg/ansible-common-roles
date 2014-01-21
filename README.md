@@ -85,4 +85,4 @@ Now I select _role2_ in _playbook.yml__:-
     PLAY RECAP ********************************************************************
     abdul                      : ok=2    changed=1    unreachable=0    failed=0
 
-The _common_role is skipped, obviously because _role1_ is skipped, and _common_ is a dependency of _role1_.
+The _common_ role is skipped, obviously because _role1_ is skipped, and _common_ is a dependency of _role1_.
