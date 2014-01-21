@@ -1,0 +1,2 @@
+- name: A role2 task
+  command: echo role2 task

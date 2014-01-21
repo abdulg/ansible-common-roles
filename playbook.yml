@@ -1,0 +1,5 @@
+- name: Configure depending on passed in variable
+  hosts: all
+  roles:
+    - { role: role1, when: do_role == 'role1' }
+    - { role: role2, when: do_role == 'role2' }

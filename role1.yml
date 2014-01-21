@@ -1,0 +1,4 @@
+- name: Playbook to do role 1
+  hosts: all
+  roles:
+    - role1
